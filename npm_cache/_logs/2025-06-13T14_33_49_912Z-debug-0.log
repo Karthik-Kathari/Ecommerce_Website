@@ -1,0 +1,329 @@
+0 verbose cli C:\Program Files\nodejs\node.exe C:\Users\User\AppData\Roaming\npm\node_modules\npm\bin\npm-cli.js
+1 info using npm@11.2.0
+2 info using node@v20.18.0
+3 silly config load:file:C:\Users\User\AppData\Roaming\npm\node_modules\npm\npmrc
+4 silly config load:file:E:\Web development\PW Skills\Projects\HTML & CSS\Animated Login Page\.npmrc
+5 silly config load:file:C:\Users\User\.npmrc
+6 silly config load:file:C:\Users\User\AppData\Roaming\npm\etc\npmrc
+7 verbose title npm install sass
+8 verbose argv "install" "sass" "--save-dev"
+9 verbose logfile logs-max:10 dir:E:\Web development\PW Skills\Projects\HTML & CSS\Animated Login Page\npm_cache\_logs\2025-06-13T14_33_49_912Z-
+10 verbose logfile E:\Web development\PW Skills\Projects\HTML & CSS\Animated Login Page\npm_cache\_logs\2025-06-13T14_33_49_912Z-debug-0.log
+11 silly logfile done cleaning log files
+12 silly packumentCache heap:2197815296 maxSize:549453824 maxEntrySize:274726912
+13 silly idealTree buildDeps
+14 silly fetch manifest sass@*
+15 silly packumentCache full:https://registry.npmjs.org/sass cache-miss
+16 http fetch GET 200 https://registry.npmjs.org/sass 320ms (cache miss)
+17 silly packumentCache full:https://registry.npmjs.org/sass set size:undefined disposed:false
+18 silly placeDep ROOT sass@1.89.2 OK for: animated-login-page@1.0.0 want: *
+19 silly fetch manifest chokidar@^4.0.0
+20 silly packumentCache full:https://registry.npmjs.org/chokidar cache-miss
+21 silly fetch manifest immutable@^5.0.2
+22 silly packumentCache full:https://registry.npmjs.org/immutable cache-miss
+23 silly fetch manifest source-map-js@>=0.6.2 <2.0.0
+24 silly packumentCache full:https://registry.npmjs.org/source-map-js cache-miss
+25 http fetch GET 200 https://registry.npmjs.org/chokidar 70ms (cache miss)
+26 silly packumentCache full:https://registry.npmjs.org/chokidar set size:undefined disposed:false
+27 silly fetch manifest @parcel/watcher@^2.4.1
+28 silly packumentCache full:https://registry.npmjs.org/@parcel%2fwatcher cache-miss
+29 http fetch GET 200 https://registry.npmjs.org/source-map-js 136ms (cache miss)
+30 silly packumentCache full:https://registry.npmjs.org/source-map-js set size:undefined disposed:false
+31 http fetch GET 200 https://registry.npmjs.org/immutable 167ms (cache miss)
+32 silly packumentCache full:https://registry.npmjs.org/immutable set size:undefined disposed:false
+33 http fetch GET 200 https://registry.npmjs.org/@parcel%2fwatcher 327ms (cache miss)
+34 silly packumentCache full:https://registry.npmjs.org/@parcel%2fwatcher set size:undefined disposed:false
+35 silly placeDep ROOT @parcel/watcher@2.5.1 OK for: sass@1.89.2 want: ^2.4.1
+36 silly placeDep ROOT chokidar@4.0.3 OK for: sass@1.89.2 want: ^4.0.0
+37 silly placeDep ROOT immutable@5.1.3 OK for: sass@1.89.2 want: ^5.0.2
+38 silly placeDep ROOT source-map-js@1.2.1 OK for: sass@1.89.2 want: >=0.6.2 <2.0.0
+39 silly fetch manifest detect-libc@^1.0.3
+40 silly packumentCache full:https://registry.npmjs.org/detect-libc cache-miss
+41 silly fetch manifest is-glob@^4.0.3
+42 silly packumentCache full:https://registry.npmjs.org/is-glob cache-miss
+43 silly fetch manifest micromatch@^4.0.5
+44 silly packumentCache full:https://registry.npmjs.org/micromatch cache-miss
+45 http fetch GET 200 https://registry.npmjs.org/is-glob 59ms (cache miss)
+46 silly packumentCache full:https://registry.npmjs.org/is-glob set size:undefined disposed:false
+47 silly fetch manifest node-addon-api@^7.0.0
+48 silly packumentCache full:https://registry.npmjs.org/node-addon-api cache-miss
+49 http fetch GET 200 https://registry.npmjs.org/micromatch 66ms (cache miss)
+50 silly packumentCache full:https://registry.npmjs.org/micromatch set size:undefined disposed:false
+51 silly fetch manifest @parcel/watcher-darwin-x64@2.5.1
+52 silly packumentCache full:https://registry.npmjs.org/@parcel%2fwatcher-darwin-x64 cache-miss
+53 http fetch GET 200 https://registry.npmjs.org/detect-libc 79ms (cache miss)
+54 silly packumentCache full:https://registry.npmjs.org/detect-libc set size:undefined disposed:false
+55 silly fetch manifest @parcel/watcher-darwin-arm64@2.5.1
+56 silly packumentCache full:https://registry.npmjs.org/@parcel%2fwatcher-darwin-arm64 cache-miss
+57 http fetch GET 200 https://registry.npmjs.org/node-addon-api 67ms (cache miss)
+58 silly packumentCache full:https://registry.npmjs.org/node-addon-api set size:undefined disposed:false
+59 silly fetch manifest @parcel/watcher-win32-x64@2.5.1
+60 silly packumentCache full:https://registry.npmjs.org/@parcel%2fwatcher-win32-x64 cache-miss
+61 http fetch GET 200 https://registry.npmjs.org/@parcel%2fwatcher-darwin-arm64 64ms (cache miss)
+62 silly packumentCache full:https://registry.npmjs.org/@parcel%2fwatcher-darwin-arm64 set size:undefined disposed:false
+63 silly fetch manifest @parcel/watcher-win32-arm64@2.5.1
+64 silly packumentCache full:https://registry.npmjs.org/@parcel%2fwatcher-win32-arm64 cache-miss
+65 http fetch GET 200 https://registry.npmjs.org/@parcel%2fwatcher-win32-x64 76ms (cache miss)
+66 silly packumentCache full:https://registry.npmjs.org/@parcel%2fwatcher-win32-x64 set size:undefined disposed:false
+67 silly fetch manifest @parcel/watcher-win32-ia32@2.5.1
+68 silly packumentCache full:https://registry.npmjs.org/@parcel%2fwatcher-win32-ia32 cache-miss
+69 http fetch GET 200 https://registry.npmjs.org/@parcel%2fwatcher-win32-ia32 81ms (cache miss)
+70 silly packumentCache full:https://registry.npmjs.org/@parcel%2fwatcher-win32-ia32 set size:undefined disposed:false
+71 silly fetch manifest @parcel/watcher-linux-x64-glibc@2.5.1
+72 silly packumentCache full:https://registry.npmjs.org/@parcel%2fwatcher-linux-x64-glibc cache-miss
+73 http fetch GET 200 https://registry.npmjs.org/@parcel%2fwatcher-darwin-x64 279ms (cache miss)
+74 silly packumentCache full:https://registry.npmjs.org/@parcel%2fwatcher-darwin-x64 set size:undefined disposed:false
+75 silly fetch manifest @parcel/watcher-linux-x64-musl@2.5.1
+76 silly packumentCache full:https://registry.npmjs.org/@parcel%2fwatcher-linux-x64-musl cache-miss
+77 http fetch GET 200 https://registry.npmjs.org/@parcel%2fwatcher-linux-x64-musl 63ms (cache miss)
+78 silly packumentCache full:https://registry.npmjs.org/@parcel%2fwatcher-linux-x64-musl set size:undefined disposed:false
+79 silly fetch manifest @parcel/watcher-linux-arm64-glibc@2.5.1
+80 silly packumentCache full:https://registry.npmjs.org/@parcel%2fwatcher-linux-arm64-glibc cache-miss
+81 http fetch GET 200 https://registry.npmjs.org/@parcel%2fwatcher-win32-arm64 754ms (cache miss)
+82 silly packumentCache full:https://registry.npmjs.org/@parcel%2fwatcher-win32-arm64 set size:undefined disposed:false
+83 silly fetch manifest @parcel/watcher-linux-arm64-musl@2.5.1
+84 silly packumentCache full:https://registry.npmjs.org/@parcel%2fwatcher-linux-arm64-musl cache-miss
+85 http fetch GET 200 https://registry.npmjs.org/@parcel%2fwatcher-linux-x64-glibc 775ms (cache miss)
+86 silly packumentCache full:https://registry.npmjs.org/@parcel%2fwatcher-linux-x64-glibc set size:undefined disposed:false
+87 silly fetch manifest @parcel/watcher-linux-arm-glibc@2.5.1
+88 silly packumentCache full:https://registry.npmjs.org/@parcel%2fwatcher-linux-arm-glibc cache-miss
+89 http fetch GET 200 https://registry.npmjs.org/@parcel%2fwatcher-linux-arm64-glibc 793ms (cache miss)
+90 silly packumentCache full:https://registry.npmjs.org/@parcel%2fwatcher-linux-arm64-glibc set size:undefined disposed:false
+91 silly fetch manifest @parcel/watcher-linux-arm-musl@2.5.1
+92 silly packumentCache full:https://registry.npmjs.org/@parcel%2fwatcher-linux-arm-musl cache-miss
+93 http fetch GET 200 https://registry.npmjs.org/@parcel%2fwatcher-linux-arm64-musl 308ms (cache miss)
+94 silly packumentCache full:https://registry.npmjs.org/@parcel%2fwatcher-linux-arm64-musl set size:undefined disposed:false
+95 silly fetch manifest @parcel/watcher-android-arm64@2.5.1
+96 silly packumentCache full:https://registry.npmjs.org/@parcel%2fwatcher-android-arm64 cache-miss
+97 http fetch GET 200 https://registry.npmjs.org/@parcel%2fwatcher-linux-arm-musl 72ms (cache miss)
+98 silly packumentCache full:https://registry.npmjs.org/@parcel%2fwatcher-linux-arm-musl set size:undefined disposed:false
+99 silly fetch manifest @parcel/watcher-freebsd-x64@2.5.1
+100 silly packumentCache full:https://registry.npmjs.org/@parcel%2fwatcher-freebsd-x64 cache-miss
+101 http fetch GET 200 https://registry.npmjs.org/@parcel%2fwatcher-android-arm64 330ms (cache miss)
+102 silly packumentCache full:https://registry.npmjs.org/@parcel%2fwatcher-android-arm64 set size:undefined disposed:false
+103 silly fetch manifest readdirp@^4.0.1
+104 silly packumentCache full:https://registry.npmjs.org/readdirp cache-miss
+105 http fetch GET 200 https://registry.npmjs.org/readdirp 64ms (cache miss)
+106 silly packumentCache full:https://registry.npmjs.org/readdirp set size:undefined disposed:false
+107 http fetch GET 200 https://registry.npmjs.org/@parcel%2fwatcher-freebsd-x64 334ms (cache miss)
+108 silly packumentCache full:https://registry.npmjs.org/@parcel%2fwatcher-freebsd-x64 set size:undefined disposed:false
+109 http fetch GET 200 https://registry.npmjs.org/@parcel%2fwatcher-linux-arm-glibc 783ms (cache miss)
+110 silly packumentCache full:https://registry.npmjs.org/@parcel%2fwatcher-linux-arm-glibc set size:undefined disposed:false
+111 silly placeDep ROOT @parcel/watcher-android-arm64@2.5.1 OK for: @parcel/watcher@2.5.1 want: 2.5.1
+112 silly placeDep ROOT @parcel/watcher-darwin-arm64@2.5.1 OK for: @parcel/watcher@2.5.1 want: 2.5.1
+113 silly placeDep ROOT @parcel/watcher-darwin-x64@2.5.1 OK for: @parcel/watcher@2.5.1 want: 2.5.1
+114 silly placeDep ROOT @parcel/watcher-freebsd-x64@2.5.1 OK for: @parcel/watcher@2.5.1 want: 2.5.1
+115 silly placeDep ROOT @parcel/watcher-linux-arm-glibc@2.5.1 OK for: @parcel/watcher@2.5.1 want: 2.5.1
+116 silly placeDep ROOT @parcel/watcher-linux-arm-musl@2.5.1 OK for: @parcel/watcher@2.5.1 want: 2.5.1
+117 silly placeDep ROOT @parcel/watcher-linux-arm64-glibc@2.5.1 OK for: @parcel/watcher@2.5.1 want: 2.5.1
+118 silly placeDep ROOT @parcel/watcher-linux-arm64-musl@2.5.1 OK for: @parcel/watcher@2.5.1 want: 2.5.1
+119 silly placeDep ROOT @parcel/watcher-linux-x64-glibc@2.5.1 OK for: @parcel/watcher@2.5.1 want: 2.5.1
+120 silly placeDep ROOT @parcel/watcher-linux-x64-musl@2.5.1 OK for: @parcel/watcher@2.5.1 want: 2.5.1
+121 silly placeDep ROOT @parcel/watcher-win32-arm64@2.5.1 OK for: @parcel/watcher@2.5.1 want: 2.5.1
+122 silly placeDep ROOT @parcel/watcher-win32-ia32@2.5.1 OK for: @parcel/watcher@2.5.1 want: 2.5.1
+123 silly placeDep ROOT @parcel/watcher-win32-x64@2.5.1 OK for: @parcel/watcher@2.5.1 want: 2.5.1
+124 silly placeDep ROOT detect-libc@1.0.3 OK for: @parcel/watcher@2.5.1 want: ^1.0.3
+125 silly placeDep ROOT is-glob@4.0.3 OK for: @parcel/watcher@2.5.1 want: ^4.0.3
+126 silly placeDep ROOT micromatch@4.0.8 OK for: @parcel/watcher@2.5.1 want: ^4.0.5
+127 silly placeDep ROOT node-addon-api@7.1.1 OK for: @parcel/watcher@2.5.1 want: ^7.0.0
+128 silly fetch manifest is-extglob@^2.1.1
+129 silly packumentCache full:https://registry.npmjs.org/is-extglob cache-miss
+130 silly fetch manifest braces@^3.0.3
+131 silly packumentCache full:https://registry.npmjs.org/braces cache-miss
+132 silly fetch manifest picomatch@^2.3.1
+133 silly packumentCache full:https://registry.npmjs.org/picomatch cache-miss
+134 http fetch GET 200 https://registry.npmjs.org/is-extglob 62ms (cache miss)
+135 silly packumentCache full:https://registry.npmjs.org/is-extglob set size:undefined disposed:false
+136 http fetch GET 200 https://registry.npmjs.org/picomatch 63ms (cache miss)
+137 silly packumentCache full:https://registry.npmjs.org/picomatch set size:undefined disposed:false
+138 http fetch GET 200 https://registry.npmjs.org/braces 67ms (cache miss)
+139 silly packumentCache full:https://registry.npmjs.org/braces set size:undefined disposed:false
+140 silly placeDep ROOT readdirp@4.1.2 OK for: chokidar@4.0.3 want: ^4.0.1
+141 silly placeDep ROOT is-extglob@2.1.1 OK for: is-glob@4.0.3 want: ^2.1.1
+142 silly placeDep ROOT braces@3.0.3 OK for: micromatch@4.0.8 want: ^3.0.3
+143 silly placeDep ROOT picomatch@2.3.1 OK for: micromatch@4.0.8 want: ^2.3.1
+144 silly fetch manifest fill-range@^7.1.1
+145 silly packumentCache full:https://registry.npmjs.org/fill-range cache-miss
+146 http fetch GET 200 https://registry.npmjs.org/fill-range 52ms (cache miss)
+147 silly packumentCache full:https://registry.npmjs.org/fill-range set size:undefined disposed:false
+148 silly placeDep ROOT fill-range@7.1.1 OK for: braces@3.0.3 want: ^7.1.1
+149 silly fetch manifest to-regex-range@^5.0.1
+150 silly packumentCache full:https://registry.npmjs.org/to-regex-range cache-miss
+151 http fetch GET 200 https://registry.npmjs.org/to-regex-range 92ms (cache miss)
+152 silly packumentCache full:https://registry.npmjs.org/to-regex-range set size:undefined disposed:false
+153 silly placeDep ROOT to-regex-range@5.0.1 OK for: fill-range@7.1.1 want: ^5.0.1
+154 silly fetch manifest is-number@^7.0.0
+155 silly packumentCache full:https://registry.npmjs.org/is-number cache-miss
+156 http fetch GET 200 https://registry.npmjs.org/is-number 48ms (cache miss)
+157 silly packumentCache full:https://registry.npmjs.org/is-number set size:undefined disposed:false
+158 silly placeDep ROOT is-number@7.0.0 OK for: to-regex-range@5.0.1 want: ^7.0.0
+159 silly reify moves {}
+160 silly audit bulk request {
+160 silly audit   sass: [ '1.89.2' ],
+160 silly audit   '@parcel/watcher': [ '2.5.1' ],
+160 silly audit   chokidar: [ '4.0.3' ],
+160 silly audit   immutable: [ '5.1.3' ],
+160 silly audit   'source-map-js': [ '1.2.1' ],
+160 silly audit   '@parcel/watcher-android-arm64': [ '2.5.1' ],
+160 silly audit   '@parcel/watcher-darwin-arm64': [ '2.5.1' ],
+160 silly audit   '@parcel/watcher-darwin-x64': [ '2.5.1' ],
+160 silly audit   '@parcel/watcher-freebsd-x64': [ '2.5.1' ],
+160 silly audit   '@parcel/watcher-linux-arm-glibc': [ '2.5.1' ],
+160 silly audit   '@parcel/watcher-linux-arm-musl': [ '2.5.1' ],
+160 silly audit   '@parcel/watcher-linux-arm64-glibc': [ '2.5.1' ],
+160 silly audit   '@parcel/watcher-linux-arm64-musl': [ '2.5.1' ],
+160 silly audit   '@parcel/watcher-linux-x64-glibc': [ '2.5.1' ],
+160 silly audit   '@parcel/watcher-linux-x64-musl': [ '2.5.1' ],
+160 silly audit   '@parcel/watcher-win32-arm64': [ '2.5.1' ],
+160 silly audit   '@parcel/watcher-win32-ia32': [ '2.5.1' ],
+160 silly audit   '@parcel/watcher-win32-x64': [ '2.5.1' ],
+160 silly audit   'detect-libc': [ '1.0.3' ],
+160 silly audit   'is-glob': [ '4.0.3' ],
+160 silly audit   micromatch: [ '4.0.8' ],
+160 silly audit   'node-addon-api': [ '7.1.1' ],
+160 silly audit   readdirp: [ '4.1.2' ],
+160 silly audit   'is-extglob': [ '2.1.1' ],
+160 silly audit   braces: [ '3.0.3' ],
+160 silly audit   picomatch: [ '2.3.1' ],
+160 silly audit   'fill-range': [ '7.1.1' ],
+160 silly audit   'to-regex-range': [ '5.0.1' ],
+160 silly audit   'is-number': [ '7.0.0' ]
+160 silly audit }
+161 verbose reify failed optional dependency E:\Web development\PW Skills\Projects\HTML & CSS\Animated Login Page\node_modules\@parcel\watcher-win32-ia32
+162 silly reify mark deleted [
+162 silly reify   'E:\\Web development\\PW Skills\\Projects\\HTML & CSS\\Animated Login Page\\node_modules\\@parcel\\watcher-win32-ia32'
+162 silly reify ]
+163 verbose reify failed optional dependency E:\Web development\PW Skills\Projects\HTML & CSS\Animated Login Page\node_modules\@parcel\watcher-win32-arm64
+164 silly reify mark deleted [
+164 silly reify   'E:\\Web development\\PW Skills\\Projects\\HTML & CSS\\Animated Login Page\\node_modules\\@parcel\\watcher-win32-arm64'
+164 silly reify ]
+165 verbose reify failed optional dependency E:\Web development\PW Skills\Projects\HTML & CSS\Animated Login Page\node_modules\@parcel\watcher-linux-x64-musl
+166 silly reify mark deleted [
+166 silly reify   'E:\\Web development\\PW Skills\\Projects\\HTML & CSS\\Animated Login Page\\node_modules\\@parcel\\watcher-linux-x64-musl'
+166 silly reify ]
+167 verbose reify failed optional dependency E:\Web development\PW Skills\Projects\HTML & CSS\Animated Login Page\node_modules\@parcel\watcher-linux-x64-glibc
+168 silly reify mark deleted [
+168 silly reify   'E:\\Web development\\PW Skills\\Projects\\HTML & CSS\\Animated Login Page\\node_modules\\@parcel\\watcher-linux-x64-glibc'
+168 silly reify ]
+169 verbose reify failed optional dependency E:\Web development\PW Skills\Projects\HTML & CSS\Animated Login Page\node_modules\@parcel\watcher-linux-arm64-musl
+170 silly reify mark deleted [
+170 silly reify   'E:\\Web development\\PW Skills\\Projects\\HTML & CSS\\Animated Login Page\\node_modules\\@parcel\\watcher-linux-arm64-musl'
+170 silly reify ]
+171 verbose reify failed optional dependency E:\Web development\PW Skills\Projects\HTML & CSS\Animated Login Page\node_modules\@parcel\watcher-linux-arm64-glibc
+172 silly reify mark deleted [
+172 silly reify   'E:\\Web development\\PW Skills\\Projects\\HTML & CSS\\Animated Login Page\\node_modules\\@parcel\\watcher-linux-arm64-glibc'
+172 silly reify ]
+173 verbose reify failed optional dependency E:\Web development\PW Skills\Projects\HTML & CSS\Animated Login Page\node_modules\@parcel\watcher-linux-arm-musl
+174 silly reify mark deleted [
+174 silly reify   'E:\\Web development\\PW Skills\\Projects\\HTML & CSS\\Animated Login Page\\node_modules\\@parcel\\watcher-linux-arm-musl'
+174 silly reify ]
+175 verbose reify failed optional dependency E:\Web development\PW Skills\Projects\HTML & CSS\Animated Login Page\node_modules\@parcel\watcher-linux-arm-glibc
+176 silly reify mark deleted [
+176 silly reify   'E:\\Web development\\PW Skills\\Projects\\HTML & CSS\\Animated Login Page\\node_modules\\@parcel\\watcher-linux-arm-glibc'
+176 silly reify ]
+177 verbose reify failed optional dependency E:\Web development\PW Skills\Projects\HTML & CSS\Animated Login Page\node_modules\@parcel\watcher-freebsd-x64
+178 silly reify mark deleted [
+178 silly reify   'E:\\Web development\\PW Skills\\Projects\\HTML & CSS\\Animated Login Page\\node_modules\\@parcel\\watcher-freebsd-x64'
+178 silly reify ]
+179 verbose reify failed optional dependency E:\Web development\PW Skills\Projects\HTML & CSS\Animated Login Page\node_modules\@parcel\watcher-darwin-x64
+180 silly reify mark deleted [
+180 silly reify   'E:\\Web development\\PW Skills\\Projects\\HTML & CSS\\Animated Login Page\\node_modules\\@parcel\\watcher-darwin-x64'
+180 silly reify ]
+181 verbose reify failed optional dependency E:\Web development\PW Skills\Projects\HTML & CSS\Animated Login Page\node_modules\@parcel\watcher-darwin-arm64
+182 silly reify mark deleted [
+182 silly reify   'E:\\Web development\\PW Skills\\Projects\\HTML & CSS\\Animated Login Page\\node_modules\\@parcel\\watcher-darwin-arm64'
+182 silly reify ]
+183 verbose reify failed optional dependency E:\Web development\PW Skills\Projects\HTML & CSS\Animated Login Page\node_modules\@parcel\watcher-android-arm64
+184 silly reify mark deleted [
+184 silly reify   'E:\\Web development\\PW Skills\\Projects\\HTML & CSS\\Animated Login Page\\node_modules\\@parcel\\watcher-android-arm64'
+184 silly reify ]
+185 http cache is-number@https://registry.npmjs.org/is-number/-/is-number-7.0.0.tgz 0ms (cache hit)
+186 http cache to-regex-range@https://registry.npmjs.org/to-regex-range/-/to-regex-range-5.0.1.tgz 0ms (cache hit)
+187 http cache fill-range@https://registry.npmjs.org/fill-range/-/fill-range-7.1.1.tgz 0ms (cache hit)
+188 http cache picomatch@https://registry.npmjs.org/picomatch/-/picomatch-2.3.1.tgz 0ms (cache hit)
+189 http cache braces@https://registry.npmjs.org/braces/-/braces-3.0.3.tgz 0ms (cache hit)
+190 http cache readdirp@https://registry.npmjs.org/readdirp/-/readdirp-4.1.2.tgz 0ms (cache hit)
+191 http cache is-extglob@https://registry.npmjs.org/is-extglob/-/is-extglob-2.1.1.tgz 0ms (cache hit)
+192 http cache node-addon-api@https://registry.npmjs.org/node-addon-api/-/node-addon-api-7.1.1.tgz 0ms (cache hit)
+193 http cache @parcel/watcher-win32-x64@https://registry.npmjs.org/@parcel/watcher-win32-x64/-/watcher-win32-x64-2.5.1.tgz 0ms (cache hit)
+194 http cache is-glob@https://registry.npmjs.org/is-glob/-/is-glob-4.0.3.tgz 0ms (cache hit)
+195 http cache detect-libc@https://registry.npmjs.org/detect-libc/-/detect-libc-1.0.3.tgz 0ms (cache hit)
+196 http cache micromatch@https://registry.npmjs.org/micromatch/-/micromatch-4.0.8.tgz 0ms (cache hit)
+197 http cache source-map-js@https://registry.npmjs.org/source-map-js/-/source-map-js-1.2.1.tgz 0ms (cache hit)
+198 http cache @parcel/watcher@https://registry.npmjs.org/@parcel/watcher/-/watcher-2.5.1.tgz 0ms (cache hit)
+199 http cache chokidar@https://registry.npmjs.org/chokidar/-/chokidar-4.0.3.tgz 0ms (cache hit)
+200 http cache immutable@https://registry.npmjs.org/immutable/-/immutable-5.1.3.tgz 0ms (cache hit)
+201 silly tarball no local data for is-number@https://registry.npmjs.org/is-number/-/is-number-7.0.0.tgz. Extracting by manifest.
+202 silly tarball no local data for to-regex-range@https://registry.npmjs.org/to-regex-range/-/to-regex-range-5.0.1.tgz. Extracting by manifest.
+203 http cache sass@https://registry.npmjs.org/sass/-/sass-1.89.2.tgz 0ms (cache hit)
+204 silly tarball no local data for fill-range@https://registry.npmjs.org/fill-range/-/fill-range-7.1.1.tgz. Extracting by manifest.
+205 silly tarball no local data for picomatch@https://registry.npmjs.org/picomatch/-/picomatch-2.3.1.tgz. Extracting by manifest.
+206 silly tarball no local data for braces@https://registry.npmjs.org/braces/-/braces-3.0.3.tgz. Extracting by manifest.
+207 silly tarball no local data for readdirp@https://registry.npmjs.org/readdirp/-/readdirp-4.1.2.tgz. Extracting by manifest.
+208 silly tarball no local data for is-extglob@https://registry.npmjs.org/is-extglob/-/is-extglob-2.1.1.tgz. Extracting by manifest.
+209 silly tarball no local data for node-addon-api@https://registry.npmjs.org/node-addon-api/-/node-addon-api-7.1.1.tgz. Extracting by manifest.
+210 silly tarball no local data for @parcel/watcher-win32-x64@https://registry.npmjs.org/@parcel/watcher-win32-x64/-/watcher-win32-x64-2.5.1.tgz. Extracting by manifest.
+211 silly tarball no local data for is-glob@https://registry.npmjs.org/is-glob/-/is-glob-4.0.3.tgz. Extracting by manifest.
+212 silly tarball no local data for detect-libc@https://registry.npmjs.org/detect-libc/-/detect-libc-1.0.3.tgz. Extracting by manifest.
+213 silly tarball no local data for micromatch@https://registry.npmjs.org/micromatch/-/micromatch-4.0.8.tgz. Extracting by manifest.
+214 silly tarball no local data for source-map-js@https://registry.npmjs.org/source-map-js/-/source-map-js-1.2.1.tgz. Extracting by manifest.
+215 silly tarball no local data for @parcel/watcher@https://registry.npmjs.org/@parcel/watcher/-/watcher-2.5.1.tgz. Extracting by manifest.
+216 silly tarball no local data for chokidar@https://registry.npmjs.org/chokidar/-/chokidar-4.0.3.tgz. Extracting by manifest.
+217 silly tarball no local data for immutable@https://registry.npmjs.org/immutable/-/immutable-5.1.3.tgz. Extracting by manifest.
+218 silly tarball no local data for sass@https://registry.npmjs.org/sass/-/sass-1.89.2.tgz. Extracting by manifest.
+219 http fetch GET 200 https://registry.npmjs.org/to-regex-range/-/to-regex-range-5.0.1.tgz 203ms (cache miss)
+220 http fetch GET 200 https://registry.npmjs.org/is-number/-/is-number-7.0.0.tgz 206ms (cache miss)
+221 http fetch GET 200 https://registry.npmjs.org/is-extglob/-/is-extglob-2.1.1.tgz 300ms (cache miss)
+222 http fetch GET 200 https://registry.npmjs.org/fill-range/-/fill-range-7.1.1.tgz 308ms (cache miss)
+223 http fetch GET 200 https://registry.npmjs.org/is-glob/-/is-glob-4.0.3.tgz 300ms (cache miss)
+224 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 345ms
+225 silly audit report {}
+226 http fetch GET 200 https://registry.npmjs.org/readdirp/-/readdirp-4.1.2.tgz 337ms (cache miss)
+227 http fetch GET 200 https://registry.npmjs.org/detect-libc/-/detect-libc-1.0.3.tgz 351ms (cache miss)
+228 http fetch GET 200 https://registry.npmjs.org/chokidar/-/chokidar-4.0.3.tgz 347ms (cache miss)
+229 http fetch GET 200 https://registry.npmjs.org/micromatch/-/micromatch-4.0.8.tgz 365ms (cache miss)
+230 http fetch GET 200 https://registry.npmjs.org/braces/-/braces-3.0.3.tgz 393ms (cache miss)
+231 http fetch GET 200 https://registry.npmjs.org/immutable/-/immutable-5.1.3.tgz 399ms (cache miss)
+232 http fetch GET 200 https://registry.npmjs.org/picomatch/-/picomatch-2.3.1.tgz 421ms (cache miss)
+233 http fetch GET 200 https://registry.npmjs.org/source-map-js/-/source-map-js-1.2.1.tgz 444ms (cache miss)
+234 http fetch GET 200 https://registry.npmjs.org/node-addon-api/-/node-addon-api-7.1.1.tgz 477ms (cache miss)
+235 http fetch GET 200 https://registry.npmjs.org/@parcel/watcher-win32-x64/-/watcher-win32-x64-2.5.1.tgz 477ms (cache miss)
+236 http fetch GET 200 https://registry.npmjs.org/@parcel/watcher/-/watcher-2.5.1.tgz 527ms (cache miss)
+237 http fetch GET 200 https://registry.npmjs.org/sass/-/sass-1.89.2.tgz 569ms (cache miss)
+238 info run @parcel/watcher@2.5.1 install node_modules/@parcel/watcher node scripts/build-from-source.js
+239 info run @parcel/watcher@2.5.1 install { code: 0, signal: null }
+240 silly ADD node_modules/is-number
+241 silly ADD node_modules/to-regex-range
+242 silly ADD node_modules/fill-range
+243 silly ADD node_modules/picomatch
+244 silly ADD node_modules/braces
+245 silly ADD node_modules/is-extglob
+246 silly ADD node_modules/readdirp
+247 silly ADD node_modules/node-addon-api
+248 silly ADD node_modules/micromatch
+249 silly ADD node_modules/is-glob
+250 silly ADD node_modules/detect-libc
+251 silly ADD node_modules/@parcel/watcher-win32-x64
+252 silly ADD
+253 silly ADD
+254 silly ADD
+255 silly ADD
+256 silly ADD
+257 silly ADD
+258 silly ADD
+259 silly ADD
+260 silly ADD
+261 silly ADD
+262 silly ADD
+263 silly ADD
+264 silly ADD node_modules/source-map-js
+265 silly ADD node_modules/immutable
+266 silly ADD node_modules/chokidar
+267 silly ADD node_modules/@parcel/watcher
+268 silly ADD node_modules/sass
+269 verbose cwd E:\Web development\PW Skills\Projects\HTML & CSS\Animated Login Page
+270 verbose os Windows_NT 10.0.18363
+271 verbose node v20.18.0
+272 verbose npm  v11.2.0
+273 verbose exit 0
+274 info ok
