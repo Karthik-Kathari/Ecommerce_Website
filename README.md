@@ -18,3 +18,6 @@ A responsive ecommerce website and login page built with HTML, CSS, and GSAP ani
 ## How to Use
 1. Clone or download this repository.
 2. Explore the site and its features.
+
+## Screenshoot :
+![Login_Singup_page](./images/Sign_up_page)
