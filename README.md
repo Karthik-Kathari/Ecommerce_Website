@@ -20,4 +20,9 @@ A responsive ecommerce website and login page built with HTML, CSS, and GSAP ani
 2. Explore the site and its features.
 
 ## Screenshoot :
-![Login_Singup_page](./images/Sign_up_page)
+![Sign Up Page](https://github.com/Karthik-Kathari/Ecommerce_Website/raw/e8a84e0e4833a1add64d9a30ace3152ed4d82dff/images/Sign_up_page.png)
+
+![Landing Page](https://github.com/Karthik-Kathari/Ecommerce_Website/raw/e8a84e0e4833a1add64d9a30ace3152ed4d82dff/images/Landing_page.png)
+
+![Cart Page](https://github.com/Karthik-Kathari/Ecommerce_Website/raw/e8a84e0e4833a1add64d9a30ace3152ed4d82dff/images/cart_page.png)
+
