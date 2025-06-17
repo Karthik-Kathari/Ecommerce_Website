@@ -1,0 +1,20 @@
+# Node modules folder
+node_modules/
+
+# NPM cache
+npm_cache/
+
+# Logs
+*.log
+
+# Environment variables file
+.env
+
+# VSCode settings folder
+.vscode/
+
+# OS generated files
+.DS_Store
+
+# Build output folder (if any)
+dist/
