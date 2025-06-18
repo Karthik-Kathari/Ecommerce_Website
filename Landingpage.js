@@ -37,30 +37,30 @@
       delay: 0.3  // Small delay for dramatic effect
     });
 
-  } else {  // For screens 768px or larger (desktop devices)
-    // Landingpage left side h1 titles for desktop
-    gsap.from(".elitegear", {
-      y: "-100vh",  // Larger movement for desktop
-      opacity: 0,
-      duration: 1.5,
-      ease: "power2.out"
-    });
-    gsap.from(".eliteathletes", {
-      x: "-100%",  // Start from left
-      opacity: 0,
-      duration: 2,
-      ease: "power2.out"
-    });
+  // } else {  // For screens 768px or larger (desktop devices)
+  //   // Landingpage left side h1 titles for desktop
+  //   gsap.from(".elitegear", {
+  //     y: "-100vh",  // Larger movement for desktop
+  //     opacity: 0,
+  //     duration: 1.5,
+  //     ease: "power2.out"
+  //   });
+  //   gsap.from(".eliteathletes", {
+  //     x: "-100%",  // Start from left
+  //     opacity: 0,
+  //     duration: 2,
+  //     ease: "power2.out"
+  //   });
 
-    // SplitType plugin typing effect for paragraph
-    const split = new SplitType(".landingpagepara", { types: 'chars' });
-    gsap.from(split.chars, {
-      opacity: 0,
-      y: 10,
-      stagger: 0.04,
-      duration: 0.2,
-      ease: "power2.out"
-    });
+  //   // SplitType plugin typing effect for paragraph
+  //   const split = new SplitType(".landingpagepara", { types: 'chars' });
+  //   gsap.from(split.chars, {
+  //     opacity: 0,
+  //     y: 10,
+  //     stagger: 0.04,
+  //     duration: 0.2,
+  //     ease: "power2.out"
+  //   });
 
     // Image animation from right for desktop
     gsap.from(".leftsideimg", {
@@ -85,6 +85,5 @@
 
 // Trigger the animation on page load
 window.addEventListener('load', animateLandingPage);
-
-// Optional: Re-trigger animations on window resize (in case user changes window size)
+// Re-trigger animations on window resize (in case user changes window size)
 window.addEventListener('resize', animateLandingPage);
