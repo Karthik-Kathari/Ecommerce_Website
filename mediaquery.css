@@ -1,0 +1,96 @@
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  body {
+    font-size: 12px;
+    /* height: 60vh; */
+    padding: 5px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Montserrat', serif;
+  }
+
+  .container {
+    width: 95%;
+    max-width: 100%;
+    min-height: 450px;
+    border-radius: 20px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+  }
+
+  .form-container {
+    height: 100%;
+    padding: 0 10px;
+  }
+
+  .sign-in {
+    /* width: 100%; */
+  }
+
+  .toggle-checkbox:checked ~ .sign-up {
+    /* width: 100%; */
+  }
+
+  form {
+    padding: 0 20px;
+  }
+
+  .social-icons {
+    gap: 10px;
+    margin: 15px 0;
+  }
+
+  .icons {
+    width: 23px;
+    height: 23px;
+    font-size: 14px;
+  }
+
+  input {
+    font-size: 12px;
+    padding: 10px;
+    margin: 6px 0;
+  }
+
+  button {
+    font-size: 11px;
+    padding: 5px 15px;
+    margin-top: 10px;
+  }
+
+  a {
+    font-size: 12px;
+    margin: 12px 0;
+    text-align: center;
+  }
+
+  p {
+    font-size: 12px;
+    margin: 10px 0;
+  }
+
+  .toggle-container {
+    border-radius: 100px 0 0 80px;
+  }
+
+  .toggle {
+    width: 200%;
+  }
+
+  .toggle-panel {
+    padding: 0 15px;
+  }
+
+  .toggle-panel label {
+    font-size: 11px;
+    padding: 8px 30px;
+    border-radius: 6px;
+  }
+
+  marquee {
+    font-size: 11px;
+    padding: 6px;
+    margin-top: 10px;
+  }
+}
