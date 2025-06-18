@@ -1,30 +1,30 @@
-// Function to trigger all animations
-function animateLandingPage() {
-  // For screens less than 768px (mobile devices)
-  if (window.innerWidth < 768) {
-    // Landingpage left side h1 titles for mobile
-    gsap.from(".elitegear", {
-      y: "-50vh",  // Smaller movement for mobile
-      opacity: 0,
-      duration: 1.2,
-      ease: "power2.out"
-    });
-    gsap.from(".eliteathletes", {
-      x: "-50%",  // Start from left
-      opacity: 0,
-      duration: 1.5,
-      ease: "power2.out"
-    });
+// // Function to trigger all animations
+// function animateLandingPage() {
+//   // For screens less than 768px (mobile devices)
+//   if (window.innerWidth < 768) {
+//     // Landingpage left side h1 titles for mobile
+//     gsap.from(".elitegear", {
+//       y: "-50vh",  // Smaller movement for mobile
+//       opacity: 0,
+//       duration: 1.2,
+//       ease: "power2.out"
+//     });
+//     gsap.from(".eliteathletes", {
+//       x: "-50%",  // Start from left
+//       opacity: 0,
+//       duration: 1.5,
+//       ease: "power2.out"
+//     });
 
-    // SplitType plugin typing effect for paragraph
-    const split = new SplitType(".landingpagepara", { types: 'chars' });
-    gsap.from(split.chars, {
-      opacity: 0,
-      y: 10,
-      stagger: 0.04,
-      duration: 0.2,
-      ease: "power2.out"
-    });
+//     // SplitType plugin typing effect for paragraph
+//     const split = new SplitType(".landingpagepara", { types: 'chars' });
+//     gsap.from(split.chars, {
+//       opacity: 0,
+//       y: 10,
+//       stagger: 0.04,
+//       duration: 0.2,
+//       ease: "power2.out"
+//     });
 
     // Image animation from right for mobile
     gsap.from(".leftsideimg", {
